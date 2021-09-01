@@ -10,3 +10,7 @@
 .active {
   border-bottom: 13px solid #01bf71;
 }
+
+body {
+  background-color: #151517;
+}
