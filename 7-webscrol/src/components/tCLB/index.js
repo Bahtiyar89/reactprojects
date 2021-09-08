@@ -27,7 +27,7 @@ const Tclb = () => {
           <VideoBg src={require("../../images/Rectangle_11.jpg").default} />
         </HeroBg>
         <AboutContent>
-          <AboutH1>Tocenomics of #CLB</AboutH1>
+          <AboutH1>Tokenomics of #CLB</AboutH1>
           <AboutHr />
           <ServicesWrapper>
             <SpanContent>

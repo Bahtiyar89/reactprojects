@@ -24,7 +24,7 @@ const Tcelebrity = () => {
           <VideoBg src={require("../../images/Rectangle_1.jpg").default} />
         </HeroBg>
         <AboutContent>
-          <AboutH1>Tocenomics of CELEBRITY’S TOKEN</AboutH1>
+          <AboutH1>Tokenomics of CELEBRITY’S TOKEN</AboutH1>
           <AboutHr />
           <ServicesWrapper>
             <SpanContent>

@@ -94,7 +94,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={0}
                 >
-                  Tocenomics of CELEBRITY's
+                  Tokenomics of CELEBRITY's
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -106,7 +106,7 @@ const Navbar = ({ toggle }) => {
                   exact="true"
                   offset={0}
                 >
-                  Tocenomics of #CLB
+                  Tokenomics of #CLB
                 </NavLinks>
               </NavItem>
               <NavItem>
