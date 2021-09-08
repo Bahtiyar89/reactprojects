@@ -32,7 +32,7 @@ const AboutPage = () => {
             </AboutP>
             <AboutP2>How will it work ? </AboutP2>
             <AboutP3>
-              After launch 5 tokens and lounch main token{" "}
+              After launch 5 tokens and launch main token{" "}
               <AboutSppan2>“CELEBRITY”</AboutSppan2> will be start NFT
               Marketplace, where people, who will buy NFT of someone{" "}
               <AboutSppan2>CELEBRITY</AboutSppan2>, will get a chance to meet a{" "}
