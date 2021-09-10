@@ -16,6 +16,8 @@ import RoadMap from "../components/roadmap";
 import Footer from "../components/footer";
 import Tcelebrity from "../components/tCelebrity";
 import Tclb from "../components/tCLB";
+import WtireToUs from "../components/writeToUs";
+import "../App.css";
 
 const Home = () => {
   const [isOpen, seTisOpen] = useState(false);
@@ -35,6 +37,7 @@ const Home = () => {
       <Tcelebrity />
       <Tclb />
       <RoadMap />
+      <WtireToUs />
 
       {/*
       <InfoSection {...hemoObjOne} />

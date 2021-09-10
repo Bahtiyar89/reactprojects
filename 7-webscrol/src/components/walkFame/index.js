@@ -46,7 +46,7 @@ const WalkFamePage = () => {
           <WalkFameP>
             <SpanWhite>Name: </SpanWhite>Keanu Charles Reeves
             <br />
-            <SpanWhite>Born: 2</SpanWhite> semptember, 1964 (age 56)
+            <SpanWhite>Born:</SpanWhite> 2 semptember, 1964 (age 56)
             <br />
             <SpanWhite>Nationality: </SpanWhite> Canadian
             <br />
