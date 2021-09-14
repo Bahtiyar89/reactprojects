@@ -3,18 +3,19 @@ import "./Details.css";
 import { useParams, Link } from "react-router-dom";
 
 import { connect } from "react-redux";
-import { getItems, AddToCart } from "../components/actions/itemActions";
+//import { getItems, AddToCart } from "../components/actions/itemActions";
+import { Data } from "./Data";
 
 const Details = (props) => {
+  /*
   useEffect(() => {
     props.getItems();
   });
+  */
 
   const { id } = useParams();
 
-  let detailsProduct = props.item.items.find(
-    (item) => item._id === parseInt(id)
-  );
+  let detailsProduct = Data.find((item) => item._id === parseInt(id));
 
   return (
     <div className="details">
@@ -52,4 +53,5 @@ const mapStateToProps = (state) => ({
   item: state.item,
 });
 
-export default connect(mapStateToProps, { getItems, AddToCart })(Details);
+//export default connect(mapStateToProps, { getItems, AddToCart })(Details);
+export default Details;

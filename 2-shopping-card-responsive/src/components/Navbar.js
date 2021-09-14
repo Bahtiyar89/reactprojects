@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 
 const Navbar = (props) => {
-  // const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(false);
 
-  // const toggleNav=()=>{
-  //     setToggle(!toggle);
-  // }
+  const toggleNav = () => {
+    setToggle(!toggle);
+  };
 
   return (
     <div className="navbar">
@@ -26,7 +26,7 @@ const Navbar = (props) => {
             </Link>
           </div>
 
-          <div className="hamburger" onClick={props.toggleNav}>
+          <div className="hamburger" onClick={toggleNav}>
             <div className="bar"></div>
             <div className="bar"></div>
             <div className="bar"></div>
@@ -35,16 +35,12 @@ const Navbar = (props) => {
 
         <div className="links">
           {/* navbar menu */}
-          <div
-            className={
-              props.item.isOpen ? "new-links-navigation" : "links-navigation"
-            }
-          >
+          <div className={toggle ? "new-links-navigation" : "links-navigation"}>
             <div className="nav-btn">
-              <span onClick={props.toggleNav}>x</span>
+              <span onClick={toggleNav}>x</span>
             </div>
 
-            <ul className="links-nav" onClick={props.closeNavbar}>
+            <ul className="links-nav" onClick={toggleNav}>
               <li>
                 <Link to="/">Home</Link>
               </li>
