@@ -72,7 +72,7 @@ export const WalkFameH1 = styled.h1`
   width: 100%;
   height: 78px;
   left: 577px;
-  margin-top: 0%;
+  margin-top: -7%;
 
   font-style: normal;
   font-weight: normal;
@@ -86,7 +86,7 @@ export const WalkFameH1 = styled.h1`
   }
   @media screen and (max-width: 480px) {
     font-size: 36px;
-    margin-top: -30%;
+    margin-top: -10%;
   }
 `;
 
@@ -121,6 +121,27 @@ export const WalkFameP = styled.p`
   text-align: left;
   max-width: 600px;
   line-height: -0.9;
+
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
+  @media screen and (max-width: 480px) {
+    margin-left: 5%;
+    font-size: 18px;
+  }
+`;
+
+export const WalkFamePWEB = styled.p`
+  //background-color: red;
+  margin-top: 64px;
+  padding-left: 20px;
+  color: #efbb31;
+  font-size: 16px;
+  text-align: left;
+  max-width: 400px;
+
+  line-height: -0.9;
+  float: left;
 
   @media screen and (max-width: 768px) {
     font-size: 24px;
@@ -189,8 +210,8 @@ export const Vector = styled.img`
 
 export const Vector2 = styled.img`
   margin-top: 15px;
-  padding-top: 5px;
-  padding-lleft: 15px;
+  padding-top: 25px;
+
   // background-color: #fff;
   width: 221px;
   height: 326px;
@@ -200,24 +221,23 @@ export const Vector2 = styled.img`
   }
   @media screen and (max-width: 480px) {
     width: 17%;
-    height: 20%;
-    // background: blue;
+    height: 17%;
+    //background: blue;
   }
 `;
 
 export const Vector3 = styled.img`
   // background-color: red;
-  margin-top: 10%;
-  text-align: center;
+
   height: 28px;
   @media screen and (max-width: 768px) {
     font-size: 24px;
   }
   @media screen and (max-width: 480px) {
     margin-left: 0px;
-    height: 22px;
-    width: 18px;
+    height: 18px;
+    width: 15px;
     // background: blue;
-    margin-top: 40%;
+    margin-top: 10%;
   }
 `;

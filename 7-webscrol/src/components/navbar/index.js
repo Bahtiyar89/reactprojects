@@ -44,7 +44,12 @@ const Navbar = ({ toggle }) => {
             <MobileIcon onClick={toggle}>
               <FaStar style={{ color: "#efbb31;" }} />
             </MobileIcon>
-            <MobileIcon2 to="/" onClick={toggleHome} scrollNav={scrollNav}>
+            <MobileIcon2
+              to="/"
+              hidden={true}
+              onClick={toggleHome}
+              scrollNav={scrollNav}
+            >
               CELEBRITY
             </MobileIcon2>
 
