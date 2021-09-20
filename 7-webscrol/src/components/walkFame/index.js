@@ -64,7 +64,7 @@ const WalkFamePage = () => {
               <SpanWhite>Nationality: </SpanWhite> American
               <br />
               <SpanWhite>Best works: </SpanWhite>the Pursuit of Happiness,
-              <br />7 lives , Men in black , I’m a legendThe Fresh Prince of
+              <br />7 lives, Men in black, I’m a legend, The Fresh Prince of
               Bel-Air
             </WalkFamePWEB>
           </RowContent>
@@ -105,7 +105,7 @@ const WalkFamePage = () => {
               <SpanWhite>Nationality: </SpanWhite> American
               <br />
               <SpanWhite>Best works: </SpanWhite>the Pursuit of Happiness,
-              <br />7 lives , Men in black , I’m a legend, The Fresh Prince of
+              <br />7 lives, Men in black, I’m a legend, The Fresh Prince of
               Bel-Air
             </WalkFameP>
           </RowContent>
